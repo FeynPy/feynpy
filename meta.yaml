@@ -1,12 +1,12 @@
 {% set name = "feynpy" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source: 
-  url: https://test-files.pythonhosted.org/packages/03/18/a5e58dcc1fb5acebea9f352dd81616be2015cbc9fc5956de01f9e1845746/feynpy-0.0.1.tar.gz
+  url: https://files.pythonhosted.org/packages/66/df/3e3629a79659d98c7b659b87cf1215511677b090baefd5c66be0398bead1/feynpy-0.0.2.tar.gz
   sha256: 1eed9ca5ada1811583bb93fcf370b664badb45699880968d12446afd40e8a9f4
 
 build:
